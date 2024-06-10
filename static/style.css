@@ -1,0 +1,23 @@
+.background {
+  background-image: url("image.jpg"); /* Replace with the actual filename of the image */
+  background-size: cover; /* Scale the background image to cover the entire div */
+  height: 90vh; /* Set the height and width of the div to the full viewport */
+  width: 100vw;
+  color: #fff; /* Set the text color to white */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.questions {
+  margin-left: 2%;
+}
+.slogan {
+  font-family: Open Sans, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 900;
+}
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #ede7e7; */
+}

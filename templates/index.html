@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %} Predict {% endblock %}
+{% block content %}
+<div class="questions">
+    <br>
+    <h3>Answer the following questions to know your Career</h3><br>
+    <form action="" method="POST">
+        Q) What is your preferred programming language?<br>
+        <input type="radio" name="choice1" value="A"> Python <br>
+        <input type="radio" name="choice1" value="B"> Java <br>
+        <input type="radio" name="choice1" value="C"> JavaScript <br>
+        <input type="radio" name="choice1" value="D"> C++ <br>
+        <br>
+        Q) What type of work environment do you enjoy?<br>
+        <input type="radio" name="choice2" value="A"> Startup <br>
+        <input type="radio" name="choice2" value="B"> Corporate <br>
+        <input type="radio" name="choice2" value="C"> Remote <br>
+        <input type="radio" name="choice2" value="D"> Freelance <br>
+        <br>
+        Q) What kind of projects are you interested in? <br>
+        <input type="radio" name="choice3" value="A"> Web development <br>
+        <input type="radio" name="choice3" value="B"> Data science <br>
+        <input type="radio" name="choice3" value="C"> Mobile apps <br>
+        <input type="radio" name="choice3" value="D"> Game development <br>
+        <br>
+        <input type="submit" value="Get Prediction">
+    </form>
+</div>
+{% endblock %}

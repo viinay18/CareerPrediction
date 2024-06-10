@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+<div class="background" align="center">
+    <div class="slogan">
+        <p>Find your perfect career path</p>
+    </div>
+    <p class="lead font-weight-normal">Get insights on your ideal career path by answering a few questions</p>
+    <a href="{{ url_for('index') }}">Start Now</a>
+</div>
+{% endblock %}
