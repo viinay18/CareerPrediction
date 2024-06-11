@@ -21,3 +21,6 @@ body {
   font-family: Arial, sans-serif;
   /* background-color: #ede7e7; */
 }
+.navbar-toggler-icon {
+  padding: 15%;
+}
